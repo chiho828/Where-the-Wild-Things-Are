@@ -1,10 +1,10 @@
 This directory contains files I created and modified to enable speech recognition for Where the Wild Things Are.
 
-<em>Pre-requisites:</em>
+<b>Pre-requisites:</b>
 - sphinxbase & pocketsphinx (cmusphinx/pocketsphinx forked on my repository)
 - acoustic model, language model, phonetic dictionary
 
-Instructions:
+<b>Instructions:</b>
 Install sphinxbase and pocketsphinx. For windows, I recommend using Visual Studio to build libraries. Make sure to place sphinxbase.dll and pocketsphinx.dll in your native library folder.
 
 Place acoustic model (en-us), language model (ngrams.lm) and phonetic dictionary (words.dic) in the pocketsphinx folder. The two models are available at https://cmusphinx.github.io/wiki/download/, but the phonetic dictionary is created by my CTO so I could not provide it here. Refer to https://cmusphinx.github.io/wiki/tutorial/ for building models and dictionaries.
