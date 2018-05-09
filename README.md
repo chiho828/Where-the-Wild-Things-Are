@@ -1,5 +1,3 @@
-This directory contains files I created and modified to enable speech recognition for Where the Wild Things Are.
-
 <b>Pre-requisites:</b>
 - sphinxbase & pocketsphinx (cmusphinx/pocketsphinx forked on my repository)
 - acoustic model, language model, phonetic dictionary
@@ -11,7 +9,5 @@ This directory contains files I created and modified to enable speech recognitio
 - Place the "test" folder in pocketsphinx/swig/java.
 - Import WebSocket libraries from http://www.eclipse.org/jetty/download.html
 - Run ServerController.java.
-
 - Open index.html, allow microphone.
-
 - Click record and start reading Where the Wild Things Are.
