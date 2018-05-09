@@ -1,6 +1,6 @@
 This directory contains files I created and modified to enable speech recognition for Where the Wild Things Are.
 
-Pre-requisites:
+<em>Pre-requisites:</em>
 - sphinxbase & pocketsphinx (cmusphinx/pocketsphinx forked on my repository)
 - acoustic model, language model, phonetic dictionary
 
